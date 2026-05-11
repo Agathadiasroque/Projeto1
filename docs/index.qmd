@@ -1,9 +1,9 @@
 ---
 title: "**PRÁTICA ESTATÍSTICA II**"
-subtitle: "**ATIVIDADE AVALIATIVA 0**"
-author: "Nome1 (<seuemail1@id.uff.br>) <br> Nome2 (<seuemail2@id.uff.br>)"
+subtitle: "**ATIVIDADE AVALIATIVA 6**"
+author: "Agatha (<agathadias@id.uff.br>)"
 date: today
-date-format: "DD/MM/YYYY"
+date-format: "13/05/2026"
 institute: "Universidade Federal Fluminense"
 format:
   revealjs:
@@ -17,13 +17,145 @@ format:
     margin: 0.07
     auto-stretch: false
     title-slide-attributes:
-      data-background-image: "Capa.png"
+      data-background-image: "Nutricao.png"
       data-background-size: cover
 ---
 
-# **PRIMEIRO CAPÍTULO**{data-background-image="Capa.png" style="text-align:center"}
+# **INTRODUÇÃO**{data-background-image="Nutricao.png" style="text-align:center"}
 
-## **PRIMEIRA SEÇÃO**
+## Contextualização do tema
+- Pandemia de COVID-19 provocou mudanças:
+  - sociais;
+  - econômicas;
+  - emocionais;
+  - comportamentais.
+  
+<br>
+
+- Alterações na rotina:
+  - isolamento social;
+  - trabalho remoto;
+  - insegurança alimentar;
+  - mudanças na prática de atividade física.
+  
+<br>
+
+- Impacto potencial sobre hábitos alimentares.
+
+## Problema de Pesquisa
+Queremos entender se a COVID-19 influenciou a nutrição dos indivíuos com relação a:
+
+<br>
+
+1) Mudanças alimentares entre indivíduos.
+2) Fatores socioeconômicos e emocionais.
+3) Nível de autocuidado
+
+A variável resposta central deste estudo é: **Delivery**
+
+## Objetivos
+
+<br>
+
+**Objetivo Geral**<br>
+- Avaliar a associação entre a variável resposta selecionada e as demais variáveis do banco de dados.
+
+<br>
+
+**Objetivos Específicos**<br>
+- Identificar padrões de mudança alimentar;
+- Investigar fatores associados:
+  - renda;
+  - escolaridade;
+  - isolamento;
+  - atividade física;
+  - acesso aos alimentos;
+  - sentimentos durante a pandemia;
+- Explorar desigualdades sociais relacionadas à alimentação.
+
+# **METODOLOGIA**{data-background-image="Nutricao.png" style="text-align:center"}
+
+## Delineamento do Estudo
+
+**Informações:**
+- Estudo observacional transversal
+- Dados coletados em 2022
+- Questionário online
+- Contexto: Pândemia de COVID-19
+
+<br>
+
+**Amostra**
+- 2310 indivíduos
+
+<br>
+
+**Origem dos dados**
+- Pós-graduação em Nutrição - UFF
+
+
+## Variáveis do Estudo
+
+<br>
+
+- **Variável Resposta**
+  - Delivery
+
+<br>
+
+- **Variáveis Explicativas Categóricas**
+  - Gênero;
+  - Raça/cor;
+  - Região;
+  - Isolamento;
+  - Trabalha;
+  - Profissional da Saúde
+  - Renda familiar;
+  - Escolaridade;
+  - Diagnóstico de COVID-19;
+  - Consulta com nutricionista;
+  - Dificuldadefinanceira;
+  - Acesso a alimenmto;
+  - Tempo de preparo da refeição;
+  - Hábito de fumar;
+  - Atividade física.
+
+<br>
+
+- **Variáveis Quantitativas**
+  - Idade;
+  - Altura;
+  - Peso;
+  - IMC.
+
+<br> 
+
+**Variável Aberta**
+- sentimentos durante a pandemia.
+
+## Análises Estatísticas
+
+**Variáveis Qualitativas**
+- Tabelas de contingência;
+- Frequências absolutas;
+- Frequências relativas (% por linha).
+
+<br>
+
+**Testes de Associação**
+- Teste Qui-Quadrado de Pearson;
+- Teste Exato de Fisher (quando necessário).
+
+<br>
+
+**Medida de Associação**
+- V de Cramér:
+
+<br>
+**Caselas Influentes**
+- Resíduos padronizados
+
+
 
 ## **BLOCOS**
 
