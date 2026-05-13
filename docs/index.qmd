@@ -163,8 +163,8 @@ A variável resposta central do nosso estudo é: **Delivery**
   - Escolaridade;
   - Diagnóstico de COVID-19;
   - Consulta com nutricionista;
-  - Dificuldadefinanceira;
-  - Acesso a alimenmto;
+  - Dificuldade financeira;
+  - Acesso ao alimento;
   - Tempo de preparo da refeição;
   - Hábito de fumar;
   - Atividade física.
@@ -193,38 +193,53 @@ A variável resposta central do nosso estudo é: **Delivery**
 ::::
 
 
-## Análises Estatísticas
+## Análises Estatísticas{.scrollable}
 <br>
 
 :::: columns
 
 ::: {.column width="50%"}
 
-**Variáveis Qualitativas:**
+**Análise frequentistas:**
 
-- Tabelas de contingência;
-- Frequências absolutas;
-- Frequências relativas (% por linha).
+- Frequências absolutas
+- Frequências relativas (% por linha)
+- Medidas de tendência central
+
+<br>
+**Medida de Associação:**
+
+- V de Cramér
 
 <br>
 
-**Testes de Associação:**
+**Caselas Influentes:**
 
-- Teste Qui-Quadrado de Pearson;
-- Teste Exato de Fisher (quando necessário).
+- Resíduos padronizados
 
 
 :::
 
 ::: {.column width="50%"}
-**Medida de Associação:**
+**Testes de Associação:**
 
-- V de Cramér:
+- Independência
+  - Teste Qui-Quadrado de Pearson
+  - Teste Exato de Fisher (quando necessário)
+- Homogeneidade (Proporções / Frequências)
+  - Teste Qui-Quadrado
+  
 
-<br>
-**Caselas Influentes:**
+**Testes de comparação:**
 
-- Resíduos padronizados
+- Variâncias
+  - Teste de Levene
+-Média
+  - ANOVA 
+  - ANOVA de Welch (quando necessário)
+  - Teste de Tukey
+
+
 :::
 
 ::::
