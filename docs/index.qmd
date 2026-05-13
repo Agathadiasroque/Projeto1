@@ -17,52 +17,101 @@ format:
     margin: 0.07
     auto-stretch: false
     title-slide-attributes:
-      data-background-image: "Nutricao.png"
+      data-background-image: "Nuticao.png"
       data-background-size: cover
 ---
 
-# **INTRODUÇÃO**{data-background-image="Nutricao.png" style="text-align:center"}
+# **INTRODUÇÃO**{data-background-image="Nuticao.png" style="text-align:center"}
 
-## Contextualização do tema
-- Pandemia de COVID-19 provocou mudanças:
-  - sociais;
-  - econômicas;
-  - emocionais;
-  - comportamentais.
+## Contextualização do tema{.scrollable}
+
+<br>
+
+Pandemia de COVID-19 provocou mudanças:
+
+:::: columns
+
+::: {.column width="50%"}
+::: box-blue
+**Sociais**
+:::
+
+::: box-green
+**Econômicas**
+:::
+:::
+
+::: {.column width="50%"}
+::: box-purple
+**Emocionais**
+:::
+
+::: box-orange
+**Comportamentais**
+:::
+:::
+
+::::
+
   
 <br>
 
-- Alterações na rotina:
-  - isolamento social;
-  - trabalho remoto;
-  - insegurança alimentar;
-  - mudanças na prática de atividade física.
-  
+Alterações na rotina:
+
+:::: columns
+
+::: {.column width="50%"}
+::: box-blue
+**Isolamento social**
+:::
+
+::: box-green
+**Trabalho remoto**
+:::
+:::
+
+::: {.column width="50%"}
+::: box-purple
+**Insegurança alimentar**
+:::
+
+::: box-orange
+**Mudanças na prática de atividade física**
+:::
+:::
+
+::::
+
 <br>
 
-- Impacto potencial sobre hábitos alimentares.
+**Impacto potencial sobre hábitos alimentares.**
 
 ## Problema de Pesquisa
-Queremos entender se a COVID-19 influenciou a nutrição dos indivíuos com relação a:
-
 <br>
+
+Essa pesquisa explora como a COVID-19 influenciou a nutrição dos indivíuos com relação a:
 
 1) Mudanças alimentares entre indivíduos.
 2) Fatores socioeconômicos e emocionais.
 3) Nível de autocuidado
 
+::: box-orange
 A variável resposta central deste estudo é: **Delivery**
+:::
 
-## Objetivos
+
+## Objetivos {.scrollable}
 
 <br>
 
-**Objetivo Geral**<br>
+**Objetivo Geral**
+
 - Avaliar a associação entre a variável resposta selecionada e as demais variáveis do banco de dados.
 
 <br>
 
-**Objetivos Específicos**<br>
+**Objetivos Específicos:**
+
 - Identificar padrões de mudança alimentar;
 - Investigar fatores associados:
   - renda;
@@ -73,15 +122,18 @@ A variável resposta central deste estudo é: **Delivery**
   - sentimentos durante a pandemia;
 - Explorar desigualdades sociais relacionadas à alimentação.
 
-# **METODOLOGIA**{data-background-image="Nutricao.png" style="text-align:center"}
+# **METODOLOGIA**{data-background-image="Nuticao.png" style="text-align:center"}
 
 ## Delineamento do Estudo
 
 **Informações:**
+
 - Estudo observacional transversal
 - Dados coletados em 2022
 - Questionário online
 - Contexto: Pândemia de COVID-19
+
+
 
 <br>
 
@@ -94,14 +146,13 @@ A variável resposta central deste estudo é: **Delivery**
 - Pós-graduação em Nutrição - UFF
 
 
-## Variáveis do Estudo
+## Variáveis do Estudo {.scrollable}
 
 <br>
 
-- **Variável Resposta**
-  - Delivery
+:::: columns
 
-<br>
+::: {.column width="50%"}
 
 - **Variáveis Explicativas Categóricas**
   - Gênero;
@@ -120,8 +171,9 @@ A variável resposta central deste estudo é: **Delivery**
   - Hábito de fumar;
   - Atividade física.
 
-<br>
+:::
 
+::: {.column width="50%"}
 - **Variáveis Quantitativas**
   - Idade;
   - Altura;
@@ -130,32 +182,76 @@ A variável resposta central deste estudo é: **Delivery**
 
 <br> 
 
-**Variável Aberta**
-- sentimentos durante a pandemia.
+- **Variável Aberta**
+  - sentimentos durante a pandemia.
+  
+<br>
+
+- **Variável Resposta**
+  - Delivery
+
+:::
+
+::::
+
+
+
+
+
+
+
+
 
 ## Análises Estatísticas
+<br>
 
-**Variáveis Qualitativas**
+:::: columns
+
+::: {.column width="50%"}
+
+**Variáveis Qualitativas:**
+
 - Tabelas de contingência;
 - Frequências absolutas;
 - Frequências relativas (% por linha).
 
 <br>
 
-**Testes de Associação**
+**Testes de Associação:**
+
 - Teste Qui-Quadrado de Pearson;
 - Teste Exato de Fisher (quando necessário).
 
-<br>
 
-**Medida de Associação**
+:::
+
+::: {.column width="50%"}
+**Medida de Associação:**
+
 - V de Cramér:
 
 <br>
-**Caselas Influentes**
+**Caselas Influentes:**
+
 - Resíduos padronizados
+:::
+
+::::
 
 
+# **Resultados**{data-background-image="Nuticao.png" style="text-align:center"}
+
+## **Variáveis Categóricas**{.scrollable}
+<br>
+![](tabela_qualitativa.png){fig-align="center" width=100%}
+
+## **Variáveis Quantitativas**{.scrollable}
+<br>
+![](Tabela quantitativa.png){fig-align="center" width=100%}
+
+## **Nuvem de palavras**
+
+![](Nuvem de palavras.png){fig-align="center" width=100%}
 
 ## **BLOCOS**
 

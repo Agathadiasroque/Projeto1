@@ -6,8 +6,8 @@
 <script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.8.26">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.36">
 
   <meta name="author" content="Agatha (agathadias@id.uff.br)">
   <title>PRÁTICA ESTATÍSTICA II</title>
@@ -17,6 +17,9 @@
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/reset.css">
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/reveal.css">
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -29,7 +32,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-2740581606dc327e82f18f789b69d8a0.css">
   <link rel="stylesheet" href="custom.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -127,7 +130,7 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="Nutricao.png" data-background-size="cover" class="quarto-title-block center">
+<section id="title-slide" data-background-image="Nuticao.png" data-background-size="cover" class="quarto-title-block center">
   <h1 class="title"><strong>PRÁTICA ESTATÍSTICA II</strong></h1>
   <p class="subtitle"><strong>ATIVIDADE AVALIATIVA 6</strong></p>
 
@@ -145,77 +148,111 @@ Agatha (<a href="mailto:agathadias@id.uff.br" class="email">agathadias@id.uff.br
   <p class="date">13/05/2026</p>
 </section>
 <section>
-<section id="introdução" class="title-slide slide level1 center" data-background-image="Nutricao.png" style="text-align:center">
+<section id="introdução" class="title-slide slide level1 center" data-background-image="Nuticao.png" style="text-align:center">
 <h1><strong>INTRODUÇÃO</strong></h1>
 
 </section>
-<section id="contextualização-do-tema" class="slide level2">
+<section id="contextualização-do-tema" class="slide level2 scrollable">
 <h2>Contextualização do tema</h2>
-<ul>
-<li>Pandemia de COVID-19 provocou mudanças:
-<ul>
-<li>sociais;</li>
-<li>econômicas;</li>
-<li>emocionais;</li>
-<li>comportamentais.</li>
-</ul></li>
-</ul>
 <p><br></p>
-<ul>
-<li>Alterações na rotina:
-<ul>
-<li>isolamento social;</li>
-<li>trabalho remoto;</li>
-<li>insegurança alimentar;</li>
-<li>mudanças na prática de atividade física.</li>
-</ul></li>
-</ul>
+<p>Pandemia de COVID-19 provocou mudanças:</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="box-blue">
+<p><strong>Sociais</strong></p>
+</div>
+<div class="box-green">
+<p><strong>Econômicas</strong></p>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="box-purple">
+<p><strong>Emocionais</strong></p>
+</div>
+<div class="box-orange">
+<p><strong>Comportamentais</strong></p>
+</div>
+</div></div>
 <p><br></p>
-<ul>
-<li>Impacto potencial sobre hábitos alimentares.</li>
-</ul>
+<p>Alterações na rotina:</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="box-blue">
+<p><strong>Isolamento social</strong></p>
+</div>
+<div class="box-green">
+<p><strong>Trabalho remoto</strong></p>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="box-purple">
+<p><strong>Insegurança alimentar</strong></p>
+</div>
+<div class="box-orange">
+<p><strong>Mudanças na prática de atividade física</strong></p>
+</div>
+</div></div>
+<p><br></p>
+<p><strong>Impacto potencial sobre hábitos alimentares.</strong></p>
 </section>
 <section id="problema-de-pesquisa" class="slide level2">
 <h2>Problema de Pesquisa</h2>
-<p>Queremos entender se a COVID-19 influenciou a nutrição dos indivíuos com relação a:</p>
 <p><br></p>
+<p>Essa pesquisa explora como a COVID-19 influenciou a nutrição dos indivíuos com relação a:</p>
 <ol type="1">
 <li>Mudanças alimentares entre indivíduos.</li>
 <li>Fatores socioeconômicos e emocionais.</li>
 <li>Nível de autocuidado</li>
 </ol>
+<div class="box-orange">
 <p>A variável resposta central deste estudo é: <strong>Delivery</strong></p>
+</div>
 </section>
-<section id="objetivos" class="slide level2">
+<section id="objetivos" class="slide level2 scrollable">
 <h2>Objetivos</h2>
 <p><br></p>
-<p><strong>Objetivo Geral</strong><br> - Avaliar a associação entre a variável resposta selecionada e as demais variáveis do banco de dados.</p>
+<p><strong>Objetivo Geral</strong></p>
+<ul>
+<li>Avaliar a associação entre a variável resposta selecionada e as demais variáveis do banco de dados.</li>
+</ul>
 <p><br></p>
-<p><strong>Objetivos Específicos</strong><br> - Identificar padrões de mudança alimentar; - Investigar fatores associados: - renda; - escolaridade; - isolamento; - atividade física; - acesso aos alimentos; - sentimentos durante a pandemia; - Explorar desigualdades sociais relacionadas à alimentação.</p>
+<p><strong>Objetivos Específicos:</strong></p>
+<ul>
+<li>Identificar padrões de mudança alimentar;</li>
+<li>Investigar fatores associados:
+<ul>
+<li>renda;</li>
+<li>escolaridade;</li>
+<li>isolamento;</li>
+<li>atividade física;</li>
+<li>acesso aos alimentos;</li>
+<li>sentimentos durante a pandemia;</li>
+</ul></li>
+<li>Explorar desigualdades sociais relacionadas à alimentação.</li>
+</ul>
 </section></section>
 <section>
-<section id="metodologia" class="title-slide slide level1 center" data-background-image="Nutricao.png" style="text-align:center">
+<section id="metodologia" class="title-slide slide level1 center" data-background-image="Nuticao.png" style="text-align:center">
 <h1><strong>METODOLOGIA</strong></h1>
 
 </section>
 <section id="delineamento-do-estudo" class="slide level2">
 <h2>Delineamento do Estudo</h2>
-<p><strong>Informações:</strong> - Estudo observacional transversal - Dados coletados em 2022 - Questionário online - Contexto: Pândemia de COVID-19</p>
+<p><strong>Informações:</strong></p>
+<ul>
+<li>Estudo observacional transversal</li>
+<li>Dados coletados em 2022</li>
+<li>Questionário online</li>
+<li>Contexto: Pândemia de COVID-19</li>
+</ul>
 <p><br></p>
 <p><strong>Amostra</strong> - 2310 indivíduos</p>
 <p><br></p>
 <p><strong>Origem dos dados</strong> - Pós-graduação em Nutrição - UFF</p>
 </section>
-<section id="variáveis-do-estudo" class="slide level2">
+<section id="variáveis-do-estudo" class="slide level2 scrollable">
 <h2>Variáveis do Estudo</h2>
 <p><br></p>
-<ul>
-<li><strong>Variável Resposta</strong>
-<ul>
-<li>Delivery</li>
-</ul></li>
-</ul>
-<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
 <li><strong>Variáveis Explicativas Categóricas</strong>
 <ul>
@@ -236,7 +273,7 @@ Agatha (<a href="mailto:agathadias@id.uff.br" class="email">agathadias@id.uff.br
 <li>Atividade física.</li>
 </ul></li>
 </ul>
-<p><br></p>
+</div><div class="column" style="width:50%;">
 <ul>
 <li><strong>Variáveis Quantitativas</strong>
 <ul>
@@ -247,16 +284,69 @@ Agatha (<a href="mailto:agathadias@id.uff.br" class="email">agathadias@id.uff.br
 </ul></li>
 </ul>
 <p><br></p>
-<p><strong>Variável Aberta</strong> - sentimentos durante a pandemia.</p>
+<ul>
+<li><strong>Variável Aberta</strong>
+<ul>
+<li>sentimentos durante a pandemia.</li>
+</ul></li>
+</ul>
+<p><br></p>
+<ul>
+<li><strong>Variável Resposta</strong>
+<ul>
+<li>Delivery</li>
+</ul></li>
+</ul>
+</div></div>
 </section>
 <section id="análises-estatísticas" class="slide level2">
 <h2>Análises Estatísticas</h2>
-<p><strong>Variáveis Qualitativas</strong> - Tabelas de contingência; - Frequências absolutas; - Frequências relativas (% por linha).</p>
 <p><br></p>
-<p><strong>Testes de Associação</strong> - Teste Qui-Quadrado de Pearson; - Teste Exato de Fisher (quando necessário).</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Variáveis Qualitativas:</strong></p>
+<ul>
+<li>Tabelas de contingência;</li>
+<li>Frequências absolutas;</li>
+<li>Frequências relativas (% por linha).</li>
+</ul>
 <p><br></p>
-<p><strong>Medida de Associação</strong> - V de Cramér:</p>
-<p><br> <strong>Caselas Influentes</strong> - Resíduos padronizados</p>
+<p><strong>Testes de Associação:</strong></p>
+<ul>
+<li>Teste Qui-Quadrado de Pearson;</li>
+<li>Teste Exato de Fisher (quando necessário).</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Medida de Associação:</strong></p>
+<ul>
+<li>V de Cramér:</li>
+</ul>
+<p><br> <strong>Caselas Influentes:</strong></p>
+<ul>
+<li>Resíduos padronizados</li>
+</ul>
+</div></div>
+</section></section>
+<section>
+<section id="resultados" class="title-slide slide level1 center" data-background-image="Nuticao.png" style="text-align:center">
+<h1><strong>Resultados</strong></h1>
+
+</section>
+<section id="variáveis-categóricas" class="slide level2 scrollable">
+<h2><strong>Variáveis Categóricas</strong></h2>
+<p><br> <img data-src="tabela_qualitativa.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</section>
+<section id="variáveis-quantitativas" class="slide level2 scrollable">
+<h2><strong>Variáveis Quantitativas</strong></h2>
+<p><br> <img data-src="Tabela%20quantitativa.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</section>
+<section id="nuvem-de-palavras" class="slide level2">
+<h2><strong>Nuvem de palavras</strong></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="Nuvem%20de%20palavras.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</figure>
+</div>
 </section>
 <section id="blocos" class="slide level2">
 <h2><strong>BLOCOS</strong></h2>
@@ -721,42 +811,80 @@ y = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
       });
     </script>
     
+
     <script>
+
       // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
       // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
       // slide changes (different for each slide format).
+
       (function () {
+
         // dispatch for htmlwidgets
+
         function fireSlideEnter() {
+
           const event = window.document.createEvent("Event");
+
           event.initEvent("slideenter", true, true);
+
           window.document.dispatchEvent(event);
+
         }
+
+    
 
         function fireSlideChanged(previousSlide, currentSlide) {
+
           fireSlideEnter();
 
+    
+
           // dispatch for shiny
+
           if (window.jQuery) {
+
             if (previousSlide) {
+
               window.jQuery(previousSlide).trigger("hidden");
+
             }
+
             if (currentSlide) {
+
               window.jQuery(currentSlide).trigger("shown");
+
             }
+
           }
+
         }
+
+    
 
         // hookup for slidy
+
         if (window.w3c_slidy) {
+
           window.w3c_slidy.add_observer(function (slide_num) {
+
             // slide_num starts at position 1
+
             fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
           });
+
         }
 
+    
+
       })();
+
     </script>
+
+    
 
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
