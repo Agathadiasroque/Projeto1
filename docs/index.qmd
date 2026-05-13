@@ -1,6 +1,6 @@
 ---
 title: "**PRÁTICA ESTATÍSTICA II**"
-subtitle: "**ATIVIDADE AVALIATIVA 6**"
+subtitle: "**Projeto 1**"
 author: "Agatha (<agathadias@id.uff.br>)"
 date: today
 date-format: "13/05/2026"
@@ -36,7 +36,7 @@ Pandemia de COVID-19 provocou mudanças:
 **Sociais**
 :::
 
-::: box-green
+::: box-purple
 **Econômicas**
 :::
 :::
@@ -46,7 +46,7 @@ Pandemia de COVID-19 provocou mudanças:
 **Emocionais**
 :::
 
-::: box-orange
+::: box-blue
 **Comportamentais**
 :::
 :::
@@ -65,7 +65,7 @@ Alterações na rotina:
 **Isolamento social**
 :::
 
-::: box-green
+::: box-purple
 **Trabalho remoto**
 :::
 :::
@@ -75,7 +75,7 @@ Alterações na rotina:
 **Insegurança alimentar**
 :::
 
-::: box-orange
+::: box-blue
 **Mudanças na prática de atividade física**
 :::
 :::
@@ -91,12 +91,12 @@ Alterações na rotina:
 
 Essa pesquisa explora como a COVID-19 influenciou a nutrição dos indivíuos com relação a:
 
-1) Mudanças alimentares entre indivíduos.
-2) Fatores socioeconômicos e emocionais.
+1) Mudanças alimentares
+2) Fatores socioeconômicos e emocionais
 3) Nível de autocuidado
 
 ::: box-orange
-A variável resposta central deste estudo é: **Delivery**
+A variável resposta central do nosso estudo é: **Delivery**
 :::
 
 
@@ -137,13 +137,11 @@ A variável resposta central deste estudo é: **Delivery**
 
 <br>
 
-**Amostra**
-- 2310 indivíduos
+**Amostra:** 2310 indivíduos
 
 <br>
 
-**Origem dos dados**
-- Pós-graduação em Nutrição - UFF
+**Origem dos dados:** Pós-graduação em Nutrição - UFF
 
 
 ## Variáveis do Estudo {.scrollable}
@@ -154,7 +152,7 @@ A variável resposta central deste estudo é: **Delivery**
 
 ::: {.column width="50%"}
 
-- **Variáveis Explicativas Categóricas**
+- **Variáveis Categóricas**
   - Gênero;
   - Raça/cor;
   - Região;
@@ -193,13 +191,6 @@ A variável resposta central deste estudo é: **Delivery**
 :::
 
 ::::
-
-
-
-
-
-
-
 
 
 ## Análises Estatísticas
@@ -245,178 +236,43 @@ A variável resposta central deste estudo é: **Delivery**
 <br>
 ![](tabela_qualitativa.png){fig-align="center" width=100%}
 
-## **Variáveis Quantitativas**{.scrollable}
+## **Variáveis Contínuas**{.scrollable}
 <br>
 ![](Tabela quantitativa.png){fig-align="center" width=100%}
 
 ## **Nuvem de palavras**
 
-![](Nuvem de palavras.png){fig-align="center" width=100%}
+![](Nuvem de palavras 2.png){fig-align="center" width=100%}
 
-## **BLOCOS**
+# **Resultados**{data-background-image="Nuticao.png" style="text-align:center"}
 
-::: box-blue
-Este é um bloco azul.
-:::
+## Variáveis categóricas
 
-::: box-green
-Este é um bloco verde.
-:::
+<br>
 
-::: box-purple
-**TÍTULO OPCIONAL**
+- Predominou o aumento do consumo de delivery durante a pandemia (62%).
+- Houve associação significativa com região, trabalho, renda, escolaridade, isolamento, COVID-19, dificuldade financeira, acesso a alimentos, preparo das refeições e atividade física (p < 0,05).
+- As associações encontradas apresentaram magnitudes fracas (V de Cramér baixo).
+- Trabalhadores e profissionais da saúde apresentaram maior frequência de aumento no consumo de delivery.
+- Maior renda e maior escolaridade estiveram associadas a maior aumento do consumo.
+- Dificuldade financeira e dificuldade de acesso a alimentos estiveram associadas à diminuição do consumo.
+- Redução da atividade física durante a pandemia esteve associada ao aumento do consumo de delivery.
 
-Este é um bloco roxo.
-:::
 
-::: box-orange
-Este é um bloco laranja.
-:::
+## Variáveis Contínuas
 
-## **LISTA NÃO ORDENADA**
+<br>
 
-::: box-blue
-- Estatística
-- Matemática
-- Programação
-:::
+- Não houve diferenças significativas entre os grupos para altura (ANOVA; p = 0,558), idade (ANOVA; p = 0,129) e IMC (ANOVA; p = 0,065).
+- Houve diferença significativa apenas para peso corporal (ANOVA de Welch; p = 0,028).
+- Nas comparações múltiplas, participantes sem hábito de consumir delivery apresentaram menor peso médio em relação ao grupo que aumentou o consumo.
+- Os grupos que diminuíram ou mantiveram o consumo apresentaram médias intermediárias, sem diferença estatística dos demais grupos.
+- De forma geral, as variáveis antropométricas mostraram pouca variação entre os padrões de consumo de delivery durante a pandemia.
 
-## **LISTA NÃO ORDENADA ANINHADA**
-- Frutas
-    - Maçã
-    - Banana
-- Verduras
-    - Alface
-    - Cenoura
-    
-## LISTA ORDENADA
+## Variável Aberta
 
-:::box-orange
-1. Coletar dados
-2. Organizar informações
-3. Aplicar análise estatística
-:::
+<br>
 
-## **LISTAS ORDENADAS ANINHADAS**
+Os sentimentos durante a pandemia foram majoritariamente negativos, trazendo a noção do peso que se tornou os efeitos da pandemia na vida das pessoas de maneira geral. 
 
-1. Preparação
-    1. Coletar materiais
-    2. Definir objetivos
-2. Execução
-
-## **LISTA DE TAREFAS**
-
-::: box-purple
-- [x] Comprar leite
-- [ ] Estudar Quarto
-- [ ] Enviar relatório
-:::
-
-## **LINKS**
-Confira a documentação oficial do [Quarto](https://quarto.org).
-
-## **EQUAÇÕES**
-A reta é descrita por $y = mx + b$.
-
-Segue uma equação de destaque:
-$$
-y = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-$$
-
-Mais exemplos:
-
-* Frações: $\frac{a}{b}$
-* Raiz quadrada: $\sqrt{x}$
-* Expoentes: $x^2$
-* Índices: $x_i$
-* Somatórios:  $\sum_{i=1}^{n} x_i$
-
-## **IMAGENS**
-![](Rstudio.png){style="width:50%;"}
-
-## **IMAGENS COM EDIÇÕES**
-![](Rstudio.png){fig-align="center" width=100%}
-
-## **TABELAS**
-| Disciplina     | Professor        | Horário   |
-|----------------|-----------------|-----------|
-| Estatística    | Prof. Guilherme | 08h-10h   |
-| Matemática     | Prof. Ana       | 10h-12h   |
-| Programação    | Prof. João      | 14h-16h   |
-
-| Produto | Preço | Quantidade |
-|:--------|------:|:----------:|
-| Lápis   |  1.50 |     10     |
-| Caderno | 12.00 |     5      |
-| Mochila | 75.00 |     1      |
-
-## **SLIDE COM ABAS**
-
-::: {.panel-tabset}
-
-### Aba 1
-
-Conteúdo da primeira aba.
-
-### Aba 2
-
-Conteúdo da segunda aba.
-
-### Aba 3
-
-Conteúdo da terceira aba.
-
-:::
-
-## Exemplo de colunas
-
-:::: columns
-
-::: {.column width="60%"}
-- Esta é a primeira coluna
-- Ela ocupa **60% da largura**
-:::
-
-::: {.column width="40%"}
-- Esta é a segunda coluna
-- Ela ocupa **40% da largura**
-:::
-
-::::
-
-## *SCROLLING* {.scrollable}
-
-Este slide demonstra o uso da classe **scrollable**, que permite adicionar **rolagem vertical** quando o conteúdo é muito grande.
-
-Este é um exemplo de texto genérico utilizado apenas para preencher o slide e demonstrar como o conteúdo pode ultrapassar a altura da tela.
-
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
-
-Quando há muito conteúdo, o slide normalmente ficaria visualmente sobrecarregado. Com o uso de `scrollable`, é possível manter tudo em um único slide e permitir que o usuário role o conteúdo.
-
-- Item A
-- Item B
-- Item C
-- Item D
-- Item E
-
-## **CRIANDO UMA CHUNK**
-```{r}
-x <- 1:10
-hist(x)
-```
-
-## CHUNK COM NOME
-```{r boxplot}
-x <- 1:10
-boxplot(x)
-```
-
-## **CHUNK PERSONALIZADA**
-```{r, fig.width=10, fig.height=4}
-hist(rnorm(100), col="skyblue", main="Histograma")
-```
+# **Obrigada!**{data-background-image="Nuticao.png" style="text-align:center"}
